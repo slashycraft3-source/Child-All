@@ -1,0 +1,21 @@
+{
+  "commands": {
+    "deviceId_123": {
+      "commandId_999": {
+        "action": "TAKE_PHOTO",
+        "payload": {
+          "camera": "FRONT"
+        },
+        "status": "PENDING",
+        "timestamp": 1711109000000
+      }
+    }
+  },
+  "status": {
+    "deviceId_123": {
+      "isMonitoringActive": true,
+      "currentAction": "IDLE",
+      "lastPing": 1711109050000
+    }
+  }
+}

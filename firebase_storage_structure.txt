@@ -1,0 +1,9 @@
+Slashy Control - Firebase Storage Structure
+
+/devices
+  /{deviceId}
+    /photos
+      /{timestamp}_front.jpg
+      /{timestamp}_back.jpg
+    /audio
+      /{timestamp}_recording.m4a

@@ -1,0 +1,61 @@
+{
+  "devices": {
+    "deviceId_123": {
+      "parentId": "parent_uid_456",
+      "deviceName": "Child's Pixel 7",
+      "batteryLevel": 85,
+      "isOnline": true,
+      "lastSeen": "2026-03-22T12:00:00Z",
+      "permissions": {
+        "location": true,
+        "camera": true,
+        "record_audio": true,
+        "read_sms": true,
+        "read_call_log": true
+      }
+    }
+  },
+  "locations": {
+    "loc_789": {
+      "deviceId": "deviceId_123",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "timestamp": "2026-03-22T12:05:00Z",
+      "accuracy": 15.5
+    }
+  },
+  "photos": {
+    "photo_001": {
+      "deviceId": "deviceId_123",
+      "storageUrl": "gs://slashy-control.appspot.com/devices/deviceId_123/photos/photo_001.jpg",
+      "cameraType": "FRONT",
+      "timestamp": "2026-03-22T11:30:00Z"
+    }
+  },
+  "audio_recordings": {
+    "audio_001": {
+      "deviceId": "deviceId_123",
+      "storageUrl": "gs://slashy-control.appspot.com/devices/deviceId_123/audio/audio_001.m4a",
+      "durationSeconds": 60,
+      "timestamp": "2026-03-22T10:15:00Z"
+    }
+  },
+  "sms_logs": {
+    "sms_001": {
+      "deviceId": "deviceId_123",
+      "address": "+1234567890",
+      "body": "Hey, are you on your way?",
+      "type": "inbox",
+      "timestamp": "2026-03-22T09:00:00Z"
+    }
+  },
+  "call_logs": {
+    "call_001": {
+      "deviceId": "deviceId_123",
+      "number": "+1987654321",
+      "type": "missed",
+      "durationSeconds": 0,
+      "timestamp": "2026-03-22T08:45:00Z"
+    }
+  }
+}
